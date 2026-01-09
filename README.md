@@ -8,6 +8,8 @@ Files added:
 - [requirements.txt](requirements.txt) - project dependencies
 - [.github/workflows/ci.yml](.github/workflows/ci.yml) - CI workflow
 
+Added `square(n)` to `calculator.py` and `test_square` to `test_calculator.py` to demonstrate a simple unary function and its test.
+
 Quick local run:
 ```bash
 python -m venv .venv
