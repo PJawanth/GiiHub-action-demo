@@ -16,9 +16,15 @@ def divide(a, b):
     return a / b
 
 
+def square(n):
+    """Return the square of n."""
+    return n * n
+
+
 if __name__ == "__main__":
     print("Sample calculations:")
     print("1 + 2 =", add(1, 2))
     print("5 - 3 =", subtract(5, 3))
     print("4 * 6 =", multiply(4, 6))
     print("10 / 2 =", divide(10, 2))
+    print("7 squared =", square(7))
